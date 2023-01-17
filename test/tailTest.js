@@ -2,7 +2,7 @@ const assert = require('chai').assert;
 const tail = require('../tail');
 
 describe('#tail', () => {
-  it('should return 3 for ["Hello", "Lighthouse", "Labs"]', () => {
+  it('should return 2 for ["Hello", "Lighthouse", "Labs"]', () => {
     const result = tail(["Hello", "Lighthouse", "Labs"]);
     assert.strictEqual(result.length, 2)
   });
