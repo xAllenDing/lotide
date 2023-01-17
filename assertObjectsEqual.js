@@ -31,3 +31,5 @@ let obj2 = {time: "now"};
 let obj3 = {time: "never"};
 assertObjectEqual(obj1, obj2);
 assertObjectEqual(obj1, obj3);
+
+module.exports = assertObjectEqual;
